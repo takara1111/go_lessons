@@ -2,19 +2,16 @@ package main
 
 import "fmt"
 
-// func hi(name string) string {
-// 	// fmt.Println("hi!" + name)
-// 	msg := "hi!" + name
-// 	return msg
+// func swap(a, b int) (int, int) {
+// 	return b, a
 // }
 
-func hi(name string) (msg string) {
-	// fmt.Println("hi!" + name)
-	msg = "hi!" + name
-	return 
-}
-
 func main() {
-	// hi("takara")
-	fmt.Println(hi("takara"))
+	// f := func(a, b int) (int, int) {
+	// 	return b, a
+	// }
+	
+	func(msg string) {
+		fmt.Println(msg)
+	}("takara")
 }
