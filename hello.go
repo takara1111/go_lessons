@@ -2,10 +2,19 @@ package main
 
 import "fmt"
 
-func main()  {
-	a := 5
-	var pa *int
-	pa = &a
-	fmt.Println(pa)
-	fmt.Println(*pa)
+// func hi(name string) string {
+// 	// fmt.Println("hi!" + name)
+// 	msg := "hi!" + name
+// 	return msg
+// }
+
+func hi(name string) (msg string) {
+	// fmt.Println("hi!" + name)
+	msg = "hi!" + name
+	return 
+}
+
+func main() {
+	// hi("takara")
+	fmt.Println(hi("takara"))
 }
